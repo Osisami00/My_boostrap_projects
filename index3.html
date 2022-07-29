@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css" <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and
+    media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body style="height: 10000px; padding-top: 120px;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top sticky-top>
+    <a class=" navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <h1 class="text-success">Hello, world!</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-xl-3 text-secondary columns text-center">
+        medium
+      </div>
+      <div class="col-md-9 col-xl-3 text-primary columns text-center">
+        large
+      </div>
+      <div class="col-md-1 col-xl-3 text-danger columns text-center">
+        small
+      </div>
+      <div class="col-md-1 col-xl-3 text-danger columns text-center">
+        small
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-lg-9 col-sm-6 text-secondary text-center">
+        <div class="columns">medium</div>
+      </div>
+      <div class="col-md-3 col-lg-3 col-sm-6  text-primary text-center">
+        <div class="columns">large</div>
+      </div>
+      <div class="col-md-3 col-lg-9 col-sm-6 text-danger text-center">
+        <div class="columns">small</div>
+      </div>
+      <div class="col-md-3 col-lg-3 col-sm-6 text-danger text-center">
+        <div class="columns">smaller</div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <img
+        class="columns1 offset-md-2 col-md-3  col-sm-12 text-secondary text-center img-thumbnail d-md-none d-sm-block d-lg-block"
+        src="images/lion.jpeg">
+      <img class="columns1 col-md-3 offset-md-1 col-sm-12 text-primary text-center img-responsive img-circle"
+        src="images/natures bridge.jpeg">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <img class="col-md-3 columns img-thumbnail img-responsive" src="images/pexels-photo-3306490.jpeg">
+      <img class="col-md-3 columns img-thumbnail" src="images/rat.jpeg">
+      <img class="col-md-3 columns img-thumbnail" src="images/pexels-photo-7176414.jpg">
+      <img class="col-md-3 columns img-thumbnail"
+        src="images/12242332_12064797281f1c536ced5bba41065740d85e58aejpegc945cbf22b3bf8887e40b39c982646aa_jpeg_jpeg30252c27659165fab3861611183350c2.jpeg">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 columns">
+        <div class="row">
+          <img class="col-md-12 sidebar1" src="images/OIPZSY9QCYB.jpg">
+          <img class="col-md-12 sidebar1" src="images/pexels-photo-9255553.jpeg">
+        </div>
+      </div>
+      <img class="col-md-9 columns mainbar" src="images/pexels-photo-6271497.jpeg">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 costumdiv">
+        <img class=" img-responsive img-thumbnail float-md-center float-lg-end" src="images/pexels-photo-7176414.jpg">
+        <p><span><br><strong>Even in some modern browsers</strong></br></span> printing can be quirky.
+
+          In particular, as of <abbr title="craze roaming around" class="initialism">Chrome</abbr> v32 and regardless of
+          margin settings,
+          Chrome uses a viewport width significantly
+          narrower than the physical paper size when resolving media queries while printing a webpage. This can result
+          in
+          Bootstrap's extra-small grid being unexpectedly activated when printing. See issue #12078 and Chrome bug
+          #273306
+          for some details. Suggested workarounds:
+
+          Embrace the extra-small grid and make sure your page looks acceptable under it.
+          Customize the values of the @screen-* Less variables so that your printer paper is considered larger than
+          extra-small.
+          Add custom media queries to change the grid size breakpoints for print media only.
+          Also, as of Safari v8.0, fixed-width .containers can cause Safari to use an unusually small font size when
+          printing. See #14868 and WebKit bug #138192 for more details. One potential workaround for this is adding the
+          following CSS:
+        </p>
+        <hr />
+        <blockquote class="blockquote-reverse">
+          <p>By failing to prepare, you are preparing to fail</p>
+          <footer>This quote is by <cite title="poet and author" class="initialism">Benjamin Franklin</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  <dl>
+
+    <div class="container">
+      <div class="row">
+        <dl class="dl-horizontal">
+          <dt>ASP.NET</dt>
+          <dd>Framework for developing web application</dd>
+          <dt>jQuery</dt>
+          <dd>Java script library that works across a multitude of browsers</dd>
+          <dt>SQL</dt>
+          <dd>The standard language for rational database management systems</dd>
+        </dl>
+
+        <ol class="list-group">
+          <li class="list-group-item-warning">Nigeria</li>
+          <li class="list-group-item-danger">U.S.A</li>
+          <li class="list-group-item-success">Jamica</li>
+          <li class="list-group-item-secondary">Mozambique</li>
+          <li class="list-group-item-primary">Russia</li>
+          <li class="list-group-item-info">Russia <span class="badge float-end text-dark">New</span></li>
+        </ol>
+
+        <hr />
+
+        <div class="list-group">
+          <a href="https://dell.com" class="list-group-item-warning">Dell</a>
+          <a href="https://google.com" class="list-group-item-info">Google</a>
+          <a href="https://facebook.com" class="list-group-item-success">Facebook</a>
+          <p>
+            To highlight text use <code>
+              &lt;mark&gt;
+            </code>
+            tag
+          </p>
+
+          <p>
+            He caressed the dog to
+            <code>&lt;sleep&gt;</code>
+          </p>
+
+          <p>pieces and pisces <mark>james</mark></p>
+          <p>pieces and pisces <code>for me</code></p>
+          <pre class="pre">&lt;strong&gt;Bold Text&lt;/strong&gt;
+            &lt;u&gt;Underline Text&lt;/u&gt;
+            &lt;Mark&gt;Highlighted Text&lt;/mark&gt;
+            </pre>
+
+          <pre class="pre-scrollable pre">
+              In particular, as of <abbr title="craze roaming around" class="initialism">Chrome</abbr> v32 and regardless of
+          margin settings,
+          Chrome uses a viewport width significantly
+          narrower than the physical paper size when resolving media queries while printing a webpage. This can result
+          in
+          Bootstrap's extra-small grid being unexpectedly activated when printing. See issue #12078 and Chrome bug
+          #273306
+          for some details. Suggested workarounds:
+
+          Embrace the extra-small grid and make sure your page looks acceptable under it.
+          Customize the values of the @screen-* Less variables so that your printer paper is considered larger than
+          extra-small.
+          Add custom media queries to change the grid size breakpoints for print media only.
+          Also, as of Safari v8.0, fixed-width .containers can cause Safari to use an unusually small font size when
+          printing. See #14868 and WebKit bug #138192 for more details. One potential workaround for this is adding the
+          following CSS:
+
+
+          In particular, as of <abbr title="craze roaming around" class="initialism">Chrome</abbr> v32 and regardless of
+          margin settings,
+          Chrome uses a viewport width significantly
+          narrower than the physical paper size when resolving media queries while printing a webpage. This can result
+          in
+          Bootstrap's extra-small grid being unexpectedly activated when printing. See issue #12078 and Chrome bug
+          #273306
+          for some details. Suggested workarounds:
+
+          Embrace the extra-small grid and make sure your page looks acceptable under it.
+          Customize the values of the @screen-* Less variables so that your printer paper is considered larger than
+          extra-small.
+          Add custom media queries to change the grid size breakpoints for print media only.
+          Also, as of Safari v8.0, fixed-width .containers can cause Safari to use an unusually small font size when
+          printing. See #14868 and WebKit bug #138192 for more details. One potential workaround for this is adding the
+          following CSS:
+
+          var <var>fullName</var> = <var>firstName</var> + <var>lastName</var>
+
+          <p>
+            for commenting a keyboard <kbd>CTRL</kbd> <kbd>k</kbd> and <kbd>CTRL</kbd> <kbd>C</kbd>
+          </p>
+          <p>
+            for uncommenting keyboard <kbd>CTRL</kbd> <kbd>K</kbd> and <kbd>CTRL</kbd> <kbd>U</kbd>
+            <kbd>I am a boy, born in Africa.</kbd>
+          </p>
+
+
+
+
+
+          In particular, as of <abbr title="craze roaming around" class="initialism">Chrome</abbr> v32 and regardless of
+          margin settings,
+          Chrome uses a viewport width significantly
+          narrower than the physical paper size when resolving media queries while printing a webpage. This can result
+          in
+          Bootstrap's extra-small grid being unexpectedly activated when printing. See issue #12078 and Chrome bug
+          #273306
+          for some details. Suggested workarounds:
+
+          Embrace the extra-small grid and make sure your page looks acceptable under it.
+          Customize the values of the @screen-* Less variables so that your printer paper is considered larger than
+          extra-small.
+          Add custom media queries to change the grid size breakpoints for print media only.
+          Also, as of Safari v8.0, fixed-width .containers can cause Safari to use an unusually small font size when
+          printing. See #14868 and WebKit bug #138192 for more details. One potential workaround for this is adding the
+          following CSS:
+
+          In particular, as of <abbr title="craze roaming around" class="initialism">Chrome</abbr> v32 and regardless of
+          margin settings,
+          Chrome uses a viewport width significantly
+          narrower than the physical paper size when resolving media queries while printing a webpage. This can result
+          in
+          Bootstrap's extra-small grid being unexpectedly activated when printing. See issue #12078 and Chrome bug
+          #273306
+          for some details. Suggested workarounds:
+
+          Embrace the extra-small grid and make sure your page looks acceptable under it.
+          Customize the values of the @screen-* Less variables so that your printer paper is considered larger than
+          extra-small.
+          Add custom media queries to change the grid size breakpoints for print media only.
+          Also, as of Safari v8.0, fixed-width .containers can cause Safari to use an unusually small font size when
+          printing. See #14868 and WebKit bug #138192 for more details. One potential workaround for this is adding the
+          following CSS:
+          </pre>
+
+          <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+              &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+              </code></pre>
+        </div>
+      </div>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>Male</td>
+          <td>John@email.com</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>Male</td>
+          <td>John@email.com</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>Male</td>
+          <td>John@email.com</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>Male</td>
+          <td>John@email.com</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>Male</td>
+          <td>John@email.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <div class="table-responsive">
+      <table class="table table-condensed table-bordered table-hover table-dark table-sm">
+        <thead class="table-primary">
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">User Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Class</th>
+            <th scope="col">Class</th>
+            <th scope="col">Class</th>
+            <th scope="col">Class</th>
+            <th scope="col">Class</th>
+          </tr>
+        </thead>
+        <tbody class="table-warining">
+          <tr>
+            <td>001</td>
+            <td>Michael Jackson</td>
+            <td>Mikky</td>
+            <td>12</td>
+            <td>SS4</td>
+          </tr>
+        </tbody>
+        <tbody class="table-info">
+          <tr>
+            <td>002</td>
+            <td>John Dumello</td>
+            <td>johnDEE</td>
+            <td>56</td>
+            <td>200lv</td>
+          </tr>
+        </tbody>
+        <tbody class="table-danger">
+          <tr>
+            <td>003</td>
+            <td>Richardo Mackson</td>
+            <td>Ricky99</td>
+            <td>43</td>
+            <td>600lv</td>
+          </tr>
+        </tbody>
+        <tbody class="table-success">
+          <tr>
+            <td>004</td>
+            <td>Adnold Mackson</td>
+            <td>Adyy55</td>
+            <td>50</td>
+            <td>100lv</td>
+          </tr>
+        </tbody>
+        <tbody class="table-info">
+          <tr>
+            <td>005</td>
+            <td>Adnold Mackson</td>
+            <td>Adyy55</td>
+            <td>50</td>
+            <td>100lv</td>
+          </tr>
+        </tbody>
+        <tbody class="table-secondary">
+          <tr>
+            <td>006</td>
+            <td>Adnold Mackson</td>
+            <td>Adyy55</td>
+            <td>50</td>
+            <td>100lv</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div clas="col-xs-12">
+          <br />
+          <button class="btn btn-primary btn-lg">Button</button>
+          <a href="https://facebook.com" class="btn btn-info btn-sm" type="button" value="input">Submit</a>
+          <input class="btn btn-outline-danger btn-xs" type="submit" value="submit">
+          <button><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+          <button class="btn btn-primary btn-lg"> <i class="fa-solid fa-magnifying-glass"></i>Search</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="dropdown">
+      <button class="dropdown-toggle" data-toggle="dropdown">
+        Dropdown<span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="#">Action 1</a></li>
+        <li><a href="#">Action 2</a></li>
+        <li><a href="#">Action 3</a></li>
+      </ul>
+    </div>
+    <div class="dropdown2">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Action
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+    </div>
+    <form>
+      <div>
+        <label for="inputUserName">Username</label>
+        <input type="text" id="InputUserName" />
+      </div>
+      <div>
+        <label for="inputPassword">Password</label>
+        <input type="password" id="inputPassword" />
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <br /> <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br /> <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <br />
+          <form>
+            <div class="form-group">
+              <label for="inputName">Fullname</label>
+              <input class="form-control" type="text" placeholder="Full Name" id="inputName" />
+            </div>
+            <div class="form-group">
+              <label for="inputDateOfBirth">Date of Birth</label>
+              <input class="form-control" type="DOB" placeholder="dd/mm/yy" id="inputDOB" />
+            </div>
+            <div class="form-group">
+              <label for="inputExperience">Experience</label>
+              <input class="form-control" type="number" placeholder="Total experience in years" id="inputPassword" />
+            </div>
+            <div class="form-group">
+              <label for="inputPersonalWebsite">Personal Website</label>
+              <input class="form-control" type="url" placeholder="Your website address" id="inputUrl" />
+            </div>
+            <div class="form-group">
+              <label for="inputPassword">Password</label>
+              <input class="form-control" type="password" placeholder="Login Password" id="inputPassword" />
+            </div>
+            <div class="form-group">
+              <label for="inputEmail">Email</label>
+              <input class="form-control" type="email" placeholder="Email Address" id="inputEmail" />
+            </div>
+            <button type="submit" class="btn btn-primary" type="submit">Login</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <form>
+            <div class="form-group">
+              <label type="inputName">Full name</label>
+              <input class="form-control" type="text" placeholder="Your full name" id="inputName" />
+            </div>
+            <div class="form-group">
+              <label type="inputAddress">Address</label>
+              <input class="form-control" type="text" placeholder="Place of residence" id="inputAddress" />
+            </div>
+            <div class="form-group">
+              <label type="inputEmail">Email</label>
+              <input class="form-control" type="Email" placeholder="Input email" id="inputEmail" />
+            </div>
+            <div class="form-group">
+              <label type="inputPersonalWebsite">Personal Website</label>
+              <input class="form-control" type="url" placeholder="Your web address" id="inptPersonalWebsite" />
+            </div>
+            <div class="form-group">
+              <label type="inputDOB">Date Of Birth</label>
+              <input class="form-control" type="number" placeholder="dd/mm/yy" id="inputDOB" />
+            </div>
+            <div class="form-group">
+              <label type="inputYearsOfExperience">Years of Experience</label>
+              <input class="form-control" type="number" placeholder="Years of experience" id="inputYearsOfExperience" />
+            </div>
+            <div class="form-group">
+              <label for="inputDescription">Product Descript</label>
+              <textarea class="form-control" type="text" placeholder="Brief product description" id="inputDescription"
+                rows="5"></textarea>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="option1" />
+                Rice
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="option2" />
+                Beans
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="option3" />
+                Yam
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="option4" disabled />
+                Pork
+              </label>
+            </div>
+            <label class="checkbox-inline">
+              <input type="checkbox" value="option1" />
+              Rice
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" value="option2" />
+              Beans
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" value="option3" />
+              Yam
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" value="option4" disabled />
+              Pork
+            </label class="checkbox-inline">
+            <div class="radio">
+              <label>
+                <input type="radio" name="radioGroup" value="1" />Lion
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="radioGroup" value="1" />Tiger
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="radioGroup" value="1" />Leopard
+              </label>
+            </div>
+            <div class="radio disabled">
+              <label>
+                <input type="radio" disabled name="radioGroup" value="1" />Frog
+              </label>
+            </div>
+            <label class="radio-inline">
+              <input type="radio" name="radioGroup" value="1" />Lion
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="radioGroup" value="1" />Tiger
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="radioGroup" value="1" />Leopard
+            </label>
+            <label class="radio-inline">
+              <input type="radio" disabled name="radioGroup" value="1" />Frog
+            </label>
+            <select multiple class="form-control">
+              <option>Lagos</option>
+              <option>Abuja</option>
+              <option>Rivers</option>
+              <option>Benue</option>
+              <option class="disabled">Kogi</option>
+            </select>
+            <button type="submit" class="btn btn-dark">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <ul class="nav nav-tabs flex-sm-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">About Us</a>
+            </li>
+          </ul>
+          <br />
+
+          <nav class="nav nav-fill nav-pills justify-content-end nav-justified">
+            <a class="nav-link nav-item active " href="#">Home</a>
+            <a class="nav-link nav-item  " href="#">Book</a>
+            <a class="nav-link nav-item " href="#">Contact</a>
+            <a class="nav-link nav-item disabled" href="#">About Us</a>
+            </ul>
+          </nav>
+          <br />
+          <nav arial-label="page navigation example bg-dark">
+            <ul class="pagination justify-content-center">
+              <li class="page-item previous"><a class="page-link" href="#">&larr; Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item next"><a class="page-link" href="#">Next &rarr;</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="panel panel-default">
+            <div class="panel-heading panel-default">
+              <h3 class="panel-title">The Girl With A Thousand Tatoo</h3>
+            </div>
+            <div class="panel-body">
+              In particular, as of <abbr title="craze roaming around" class="initialism">Chrome</abbr> v32 and
+              regardless of
+              margin settings,
+              Chrome uses a viewport width significantly
+              narrower than the physical paper size when resolving media queries while printing a webpage. This can
+              result
+              in
+              Bootstrap's extra-small grid being unexpectedly activated when printing. See issue #12078 and Chrome bug
+              #273306
+              for some details. Suggested workarounds:
+            </div>
+          </div>
+          <br />
+        </div>
+        <div class="well">
+          In particular, as of <abbr title="craze roaming around" class="initialism">Chrome</abbr> v32 and
+          regardless of
+          margin settings,
+          Chrome uses a viewport width significantly
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary">Inbox<span class="badge badge-light">1</span></button>
+    <button class="btn btn-primary">Outbox<span class="badge">1</span></button>
+    <button class="btn btn-primary">Sent Item<span class="badge">1</span></button>
+    <button class="btn btn-primary">Draft<span class="badge">1</span></button>
+    <button type="button" class="btn btn-primary">
+      Notifications <span class="badge badge-light">4</span>
+    </button>
+    <br />
+    <br />
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0"
+        aria-valuemax="100"></div>
+      <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0"
+        aria-valuemax="100"></div>
+      <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" style="width: 500px; float: start;">
+          <div class="progress">
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
+              style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
+              style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar"
+              style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
+              style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div calss="row">
+        <div class="col-sm-12">
+          <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+              aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+              aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+              aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
+              elements</button>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                  anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                  anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <h4 class="panel-heading">
+              <div panel-title>
+                <a href="#panelBodyOne" data-toggle="collapse" data-percent="#accordion">
+                  North America
+                </a>
+              </div>
+            </h4>
+          </div>
+          <div id="panelBodyOne" class="panel-collapse  collapse">
+            <div class="panel-body">
+              <ul>
+                <li>USA</li>
+                <li>Nigeria</li>
+                <li>Niger</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-primary">
+            <h4 class="panel-heading">
+              <div panel-title>
+                <a href="#panelBodyTwo" data-toggle="collapse" data-percent="#accordion">
+                  Africa
+                </a>
+              </div>
+            </h4>
+          </div>
+          <div id="panelBodyTwo" class="panel-collapse  collapse">
+            <div class="panel-body">
+              <ul>
+                <li>USA</li>
+                <li>Nigeria</li>
+                <li>Niger</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-primary">
+            <h4 class="panel-heading">
+              <div panel-title>
+                <a href="#panelBodyThree" data-toggle="collapse" data-percent="#accordion">
+                  Asia
+                </a>
+              </div>
+            </h4>
+          </div>
+          <div id="panelBodyThree" class="panel-collapse  collapse">
+            <div class="panel-body">
+              <ul>
+                <li>USA</li>
+                <li>Nigeria</li>
+                <li>Niger</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="javaScript" src="js/bootstrap.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+
+</body>
+
+</html>

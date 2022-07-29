@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <body style="padding-bottom: 3000px">
+    <h1 class="text-success">Hello, World!</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="sidebar">Sidebar 1</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+                <div class="sidebar">sidebar 2</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-9">
+          <div class="main-content">Main Content Area</div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-5">
+          <div class="sidebar">first content</div>
+        </div>
+
+        <div class="col-7">
+          <div class="row">
+            <div class="col-6">
+              <div class="sidebar">3.5</div>
+            </div>
+            <div class="col-6">
+              <div class="sidebar">3.5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 offset-0">
+          <img src="images/ui-face2.jpeg" class="thumbnail1 thumbnail img-thumbnail img-responsive"/>
+           <p>Even in some modern browsers, printing can be quirky.
+
+            In particular, as of Chrome v32 and regardless of margin settings, Chrome uses a viewport width significantly narrower than the physical paper size when resolving media queries while printing a webpage. This can result in Bootstrap's extra-small grid being unexpectedly activated when printing. See issue #12078 and Chrome bug #273306 for some details. Suggested workarounds:
+            
+            Embrace the extra-small grid and make sure your page looks acceptable under it.
+            Customize the values of the @screen-* Less variables so that your printer paper is considered larger than extra-small.
+            Add custom media queries to change the grid size breakpoints for print media only.
+            Also, as of Safari v8.0, fixed-width .containers can cause Safari to use an unusually small font size when printing. See #14868 and WebKit bug #138192 for more details. One potential workaround for this is adding the following CSS:</p>
+       </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
